@@ -1,13 +1,16 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import navbar from './Components/navbar '
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <navbar/>
   </React.StrictMode>
 );
 

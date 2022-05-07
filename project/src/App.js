@@ -10,6 +10,7 @@ import PicturePost from './Components/PicturePost';
 import Pic from './data/pics';
 import { useState } from 'react';
 import AppSearch from './Components/AppSearch';
+import navbar from './Components/navbar '
 
 function App() {
   const [selectedPicture, setSelectedPicture] = useState(null);
@@ -33,7 +34,10 @@ function App() {
   }
   return (
     <div className="App">
-      <AppHeader />
+      <navbar />
+
+      {/* <AppHeader /> */}
+      <headsec />
       <section className='app-section'>
         <AppSearch value={searchText} onValueChange={setSearchText} />
         <div className='app-grid'>

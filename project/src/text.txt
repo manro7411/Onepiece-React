@@ -25,3 +25,5 @@
       // stage >> ข้อมูลที่อยู่ในหน้าเว็บ 
 
        {/* <button onClick={() => { onPictureOpenClick(images[0]) }}>see more</button> */}
+
+          <img className='app-header-logo' src="/images/PngItem_2142197.png" / >
